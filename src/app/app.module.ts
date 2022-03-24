@@ -9,6 +9,7 @@ import { TnavComponent } from './tnav/tnav.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { EventsComponent } from './events/events.component';
 import { BlogComponent } from './blog/blog.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BlogComponent } from './blog/blog.component';
     TnavComponent,
     ResourcesComponent,
     EventsComponent,
-    BlogComponent
+    BlogComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
